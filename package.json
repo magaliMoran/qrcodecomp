@@ -1,0 +1,31 @@
+{
+  "name": "qrcodecomp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
+    "start": "serve ./src",
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "deploy": "gh-pages -d src",
+    "eslint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magaliMoran/qrcodecomp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magaliMoran/qrcodecomp/issues"
+  },
+  "homepage": "https://github.com/magaliMoran/qrcodecomp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "gh-pages": "^4.0.0"
+  }
+}
